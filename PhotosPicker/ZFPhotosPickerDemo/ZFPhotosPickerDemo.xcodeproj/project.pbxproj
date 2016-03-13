@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A116C8B1BEC83AD00A2471C /* ZFCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A116C8A1BEC83AD00A2471C /* ZFCameraViewController.m */; };
+		7A116C8F1BEC98E700A2471C /* ZFAlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A116C8E1BEC98E700A2471C /* ZFAlbumsViewController.m */; };
+		7AA05B3C1BE7539B001818BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA05B3B1BE7539B001818BB /* main.m */; };
+		7AA05B3F1BE7539B001818BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA05B3E1BE7539B001818BB /* AppDelegate.m */; };
+		7AA05B451BE7539B001818BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA05B431BE7539B001818BB /* Main.storyboard */; };
+		7AA05B471BE7539B001818BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA05B461BE7539B001818BB /* Images.xcassets */; };
+		7AA05B4A1BE7539B001818BB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AA05B481BE7539B001818BB /* LaunchScreen.xib */; };
+		7AA05B561BE7539B001818BB /* ZFPhotosPickerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA05B551BE7539B001818BB /* ZFPhotosPickerDemoTests.m */; };
+		7AA05B641BE75620001818BB /* ZFPhotosPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA05B631BE75620001818BB /* ZFPhotosPickerViewController.m */; };
+		7AE8A0E41BEAFCAB0054360E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE8A0E31BEAFCAB0054360E /* AssetsLibrary.framework */; };
+		7D912DB61BEF5F9D0081F889 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D912DB51BEF5F9D0081F889 /* PhotoCell.m */; };
+		7D912DB91BEF608A0081F889 /* ZFChoosePhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D912DB81BEF608A0081F889 /* ZFChoosePhotoViewController.m */; };
+		7D912DBC1BEF65C60081F889 /* ZF_Asset.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D912DBB1BEF65C60081F889 /* ZF_Asset.m */; };
+		7D912DBF1BEFA3640081F889 /* ZFImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D912DBE1BEFA3640081F889 /* ZFImageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AA05B501BE7539B001818BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AA05B2E1BE7539B001818BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AA05B351BE7539B001818BB;
+			remoteInfo = ZFPhotosPickerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A116C891BEC83AD00A2471C /* ZFCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFCameraViewController.h; sourceTree = "<group>"; };
+		7A116C8A1BEC83AD00A2471C /* ZFCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFCameraViewController.m; sourceTree = "<group>"; };
+		7A116C8D1BEC98E700A2471C /* ZFAlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFAlbumsViewController.h; sourceTree = "<group>"; };
+		7A116C8E1BEC98E700A2471C /* ZFAlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFAlbumsViewController.m; sourceTree = "<group>"; };
+		7AA05B361BE7539B001818BB /* ZFPhotosPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFPhotosPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA05B3A1BE7539B001818BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA05B3B1BE7539B001818BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AA05B3D1BE7539B001818BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7AA05B3E1BE7539B001818BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7AA05B441BE7539B001818BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AA05B461BE7539B001818BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7AA05B491BE7539B001818BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7AA05B4F1BE7539B001818BB /* ZFPhotosPickerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFPhotosPickerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA05B541BE7539B001818BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA05B551BE7539B001818BB /* ZFPhotosPickerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFPhotosPickerDemoTests.m; sourceTree = "<group>"; };
+		7AA05B621BE75620001818BB /* ZFPhotosPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFPhotosPickerViewController.h; sourceTree = "<group>"; };
+		7AA05B631BE75620001818BB /* ZFPhotosPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFPhotosPickerViewController.m; sourceTree = "<group>"; };
+		7AE8A0E31BEAFCAB0054360E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		7D912DB41BEF5F9D0081F889 /* PhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCell.h; sourceTree = "<group>"; };
+		7D912DB51BEF5F9D0081F889 /* PhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCell.m; sourceTree = "<group>"; };
+		7D912DB71BEF608A0081F889 /* ZFChoosePhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFChoosePhotoViewController.h; sourceTree = "<group>"; };
+		7D912DB81BEF608A0081F889 /* ZFChoosePhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFChoosePhotoViewController.m; sourceTree = "<group>"; };
+		7D912DBA1BEF65C60081F889 /* ZF_Asset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZF_Asset.h; sourceTree = "<group>"; };
+		7D912DBB1BEF65C60081F889 /* ZF_Asset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZF_Asset.m; sourceTree = "<group>"; };
+		7D912DBD1BEFA3640081F889 /* ZFImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFImageViewController.h; sourceTree = "<group>"; };
+		7D912DBE1BEFA3640081F889 /* ZFImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFImageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AA05B331BE7539B001818BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE8A0E41BEAFCAB0054360E /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA05B4C1BE7539B001818BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A116C8C1BEC885700A2471C /* ZFPhotosPicker */ = {
+			isa = PBXGroup;
+			children = (
+				7AA05B621BE75620001818BB /* ZFPhotosPickerViewController.h */,
+				7AA05B631BE75620001818BB /* ZFPhotosPickerViewController.m */,
+				7A116C891BEC83AD00A2471C /* ZFCameraViewController.h */,
+				7A116C8A1BEC83AD00A2471C /* ZFCameraViewController.m */,
+				7A116C8D1BEC98E700A2471C /* ZFAlbumsViewController.h */,
+				7A116C8E1BEC98E700A2471C /* ZFAlbumsViewController.m */,
+				7D912DB41BEF5F9D0081F889 /* PhotoCell.h */,
+				7D912DB51BEF5F9D0081F889 /* PhotoCell.m */,
+				7D912DB71BEF608A0081F889 /* ZFChoosePhotoViewController.h */,
+				7D912DB81BEF608A0081F889 /* ZFChoosePhotoViewController.m */,
+				7D912DBA1BEF65C60081F889 /* ZF_Asset.h */,
+				7D912DBB1BEF65C60081F889 /* ZF_Asset.m */,
+				7D912DBD1BEFA3640081F889 /* ZFImageViewController.h */,
+				7D912DBE1BEFA3640081F889 /* ZFImageViewController.m */,
+			);
+			name = ZFPhotosPicker;
+			sourceTree = "<group>";
+		};
+		7AA05B2D1BE7539B001818BB = {
+			isa = PBXGroup;
+			children = (
+				7AA05B381BE7539B001818BB /* ZFPhotosPickerDemo */,
+				7AA05B521BE7539B001818BB /* ZFPhotosPickerDemoTests */,
+				7AA05B371BE7539B001818BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AA05B371BE7539B001818BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AA05B361BE7539B001818BB /* ZFPhotosPickerDemo.app */,
+				7AA05B4F1BE7539B001818BB /* ZFPhotosPickerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AA05B381BE7539B001818BB /* ZFPhotosPickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7A116C8C1BEC885700A2471C /* ZFPhotosPicker */,
+				7AA05B3D1BE7539B001818BB /* AppDelegate.h */,
+				7AA05B3E1BE7539B001818BB /* AppDelegate.m */,
+				7AA05B431BE7539B001818BB /* Main.storyboard */,
+				7AA05B461BE7539B001818BB /* Images.xcassets */,
+				7AA05B481BE7539B001818BB /* LaunchScreen.xib */,
+				7AA05B391BE7539B001818BB /* Supporting Files */,
+			);
+			path = ZFPhotosPickerDemo;
+			sourceTree = "<group>";
+		};
+		7AA05B391BE7539B001818BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AE8A0E31BEAFCAB0054360E /* AssetsLibrary.framework */,
+				7AA05B3A1BE7539B001818BB /* Info.plist */,
+				7AA05B3B1BE7539B001818BB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AA05B521BE7539B001818BB /* ZFPhotosPickerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AA05B551BE7539B001818BB /* ZFPhotosPickerDemoTests.m */,
+				7AA05B531BE7539B001818BB /* Supporting Files */,
+			);
+			path = ZFPhotosPickerDemoTests;
+			sourceTree = "<group>";
+		};
+		7AA05B531BE7539B001818BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AA05B541BE7539B001818BB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AA05B351BE7539B001818BB /* ZFPhotosPickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA05B591BE7539B001818BB /* Build configuration list for PBXNativeTarget "ZFPhotosPickerDemo" */;
+			buildPhases = (
+				7AA05B321BE7539B001818BB /* Sources */,
+				7AA05B331BE7539B001818BB /* Frameworks */,
+				7AA05B341BE7539B001818BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZFPhotosPickerDemo;
+			productName = ZFPhotosPickerDemo;
+			productReference = 7AA05B361BE7539B001818BB /* ZFPhotosPickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AA05B4E1BE7539B001818BB /* ZFPhotosPickerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA05B5C1BE7539B001818BB /* Build configuration list for PBXNativeTarget "ZFPhotosPickerDemoTests" */;
+			buildPhases = (
+				7AA05B4B1BE7539B001818BB /* Sources */,
+				7AA05B4C1BE7539B001818BB /* Frameworks */,
+				7AA05B4D1BE7539B001818BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AA05B511BE7539B001818BB /* PBXTargetDependency */,
+			);
+			name = ZFPhotosPickerDemoTests;
+			productName = ZFPhotosPickerDemoTests;
+			productReference = 7AA05B4F1BE7539B001818BB /* ZFPhotosPickerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AA05B2E1BE7539B001818BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Infosec;
+				TargetAttributes = {
+					7AA05B351BE7539B001818BB = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					7AA05B4E1BE7539B001818BB = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 7AA05B351BE7539B001818BB;
+					};
+				};
+			};
+			buildConfigurationList = 7AA05B311BE7539B001818BB /* Build configuration list for PBXProject "ZFPhotosPickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AA05B2D1BE7539B001818BB;
+			productRefGroup = 7AA05B371BE7539B001818BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AA05B351BE7539B001818BB /* ZFPhotosPickerDemo */,
+				7AA05B4E1BE7539B001818BB /* ZFPhotosPickerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AA05B341BE7539B001818BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA05B451BE7539B001818BB /* Main.storyboard in Resources */,
+				7AA05B4A1BE7539B001818BB /* LaunchScreen.xib in Resources */,
+				7AA05B471BE7539B001818BB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA05B4D1BE7539B001818BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AA05B321BE7539B001818BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D912DB61BEF5F9D0081F889 /* PhotoCell.m in Sources */,
+				7D912DB91BEF608A0081F889 /* ZFChoosePhotoViewController.m in Sources */,
+				7D912DBF1BEFA3640081F889 /* ZFImageViewController.m in Sources */,
+				7A116C8F1BEC98E700A2471C /* ZFAlbumsViewController.m in Sources */,
+				7AA05B3F1BE7539B001818BB /* AppDelegate.m in Sources */,
+				7D912DBC1BEF65C60081F889 /* ZF_Asset.m in Sources */,
+				7AA05B3C1BE7539B001818BB /* main.m in Sources */,
+				7AA05B641BE75620001818BB /* ZFPhotosPickerViewController.m in Sources */,
+				7A116C8B1BEC83AD00A2471C /* ZFCameraViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA05B4B1BE7539B001818BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA05B561BE7539B001818BB /* ZFPhotosPickerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AA05B511BE7539B001818BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AA05B351BE7539B001818BB /* ZFPhotosPickerDemo */;
+			targetProxy = 7AA05B501BE7539B001818BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AA05B431BE7539B001818BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AA05B441BE7539B001818BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AA05B481BE7539B001818BB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AA05B491BE7539B001818BB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AA05B571BE7539B001818BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7AA05B581BE7539B001818BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AA05B5A1BE7539B001818BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZFPhotosPickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7AA05B5B1BE7539B001818BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZFPhotosPickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7AA05B5D1BE7539B001818BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZFPhotosPickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFPhotosPickerDemo.app/ZFPhotosPickerDemo";
+			};
+			name = Debug;
+		};
+		7AA05B5E1BE7539B001818BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZFPhotosPickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZFPhotosPickerDemo.app/ZFPhotosPickerDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AA05B311BE7539B001818BB /* Build configuration list for PBXProject "ZFPhotosPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA05B571BE7539B001818BB /* Debug */,
+				7AA05B581BE7539B001818BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA05B591BE7539B001818BB /* Build configuration list for PBXNativeTarget "ZFPhotosPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA05B5A1BE7539B001818BB /* Debug */,
+				7AA05B5B1BE7539B001818BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA05B5C1BE7539B001818BB /* Build configuration list for PBXNativeTarget "ZFPhotosPickerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA05B5D1BE7539B001818BB /* Debug */,
+				7AA05B5E1BE7539B001818BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AA05B2E1BE7539B001818BB /* Project object */;
+}
